@@ -1,0 +1,1 @@
+/workspaces/training/hello-nextflow/work/b2/b13d807df2000eb3039823cf9a7324/Bonjour-output.txt

@@ -1,0 +1,69 @@
+2026-06-09 19:39:45	2.5s	naughty_poisson	OK	dc38bebf450867fba452781d1f55af70	5ec79ced-e2fa-4e4f-b2b4-0fa717ad89fc	nextflow run hello-world.nf
+2026-06-09 19:44:07	2.5s	sick_ramanujan	OK	dc38bebf450867fba452781d1f55af70	49e1b384-ec15-4225-90a9-c00ca51a79b7	nextflow run hello-world.nf
+2026-06-09 19:55:57	2.9s	berserk_goldwasser	OK	e862cea3682f7d4961782f857d50ac6b	3ac3bd48-6941-41c8-823e-be677f79adea	nextflow run hello-world.nf
+2026-06-09 19:58:46	2.7s	suspicious_majorana	OK	c866e23e36e0f20160af904a324a192f	86e10b63-877c-4185-8259-ecbd641c1a07	nextflow run hello-world.nf
+2026-06-09 20:01:54	2.2s	nice_brahmagupta	OK	c9fd80cb2c8fab6428117069725b3bcc	ab5c5a5d-0c14-42d6-9d89-7638acc1b13d	nextflow run hello-world.nf
+2026-06-09 20:15:06	2.5s	reverent_kirch	OK	5430d482ffa8ac9ff2bbce94dddce984	c4acc2dd-fe5c-4c7f-b6c8-8f88948dd6ea	nextflow run hello-world.nf --input '¡Hola Mundo!'
+2026-06-09 20:46:09	-	romantic_pike	-	0942b78cfd7762aab25c171ef41cf657	50998a89-51c8-4361-8be3-f13ad7c310f6	nextflow run hello-world.nf
+2026-06-09 20:47:22	3.5s	festering_gauss	ERR	f50f8da4de95004e353dd91bcc6c8f57	e2f78295-6f58-4e51-b53f-e50e6405b2a6	nextflow run hello-world.nf
+2026-06-09 20:48:33	2.7s	nauseous_church	OK	63b4494da3985936a383d9d8b5e0a7de	a2599067-6a40-4bef-b0ba-691f858fa817	nextflow run hello-world.nf
+2026-06-09 20:50:16	3.8s	distraught_bose	OK	ebe8cf60c217cfe2ec709d8c8fa329e6	baca6d3a-a823-408b-84bb-f3a817e9a7d5	nextflow run hello-world.nf --input 'Halo dunia!'
+2026-06-09 20:54:15	3s	small_agnesi	OK	ebe8cf60c217cfe2ec709d8c8fa329e6	baca6d3a-a823-408b-84bb-f3a817e9a7d5	nextflow run hello-world.nf -resume
+2026-06-09 20:54:41	2.6s	extravagant_lumiere	OK	ebe8cf60c217cfe2ec709d8c8fa329e6	baca6d3a-a823-408b-84bb-f3a817e9a7d5	nextflow run hello-world.nf -resume
+2026-06-09 21:27:09	2.5s	wise_boyd	OK	6bb40475d25498fdaf1621b511997ca5	8eb0b003-a6f0-4476-b6f8-8719756f65f2	nextflow run hello-channels.nf --input 'Hello Channels!'
+2026-06-09 21:32:35	2.6s	irreverent_brown	OK	b7efff59101fbea8f4bc24cc89e99dc2	e2e44595-6ebc-469f-befb-f0d6dff37995	nextflow run hello-channels.nf
+2026-06-09 21:36:35	3.2s	happy_brenner	OK	b3119ade640b2934c0ec9eac4c34cbc4	cdb3f215-fccb-4270-a84a-50f07a799da1	nextflow run hello-channels.nf
+2026-06-09 21:39:34	2.9s	fabulous_jepsen	OK	f7a5c2a4f735e9933da763f40dbe82f0	81148207-0460-47d6-841a-c95ecf0471b2	nextflow run hello-channels.nf
+2026-06-09 21:43:50	2.6s	elated_euler	OK	3f87ef3e892d773d8e0fdca4e553b14e	309ca6fe-c9ca-4759-981c-2b2450b1e4b0	nextflow run hello-channels.nf -ansi-log false
+2026-06-09 22:29:30	-	cheeky_shockley	-	0a6af1ffa88d1d78c5a9354777cfdee4	09a130c1-fe4f-4509-abce-0cc4c1af076d	nextflow run hello-channels.nf
+2026-06-09 22:30:04	2.2s	kickass_aryabhata	OK	e0b4cc29154583acf500d9b6c622dbf3	f6106d94-1c81-44dd-aefe-5328e0c49934	nextflow run hello-channels.nf
+2026-06-09 22:35:03	2.9s	marvelous_sinoussi	ERR	f36aa238be7e1e221c183be6320237ed	97851d96-a885-4165-9db3-47cf1bda8779	nextflow run hello-channels.nf
+2026-06-09 22:42:13	2.5s	gloomy_gauss	OK	4682cf6fdce74c8f0046b3dbdf815dbb	1031ded5-0aea-4ec3-b8ff-d2be930efe93	nextflow run hello-channels.nf
+2026-06-09 22:51:22	3.2s	adoring_salas	ERR	aeb3866d2295d8d0775c7df39ee6d55c	e4c384be-e3c5-44ad-a144-c46429aae182	nextflow run hello-channels.nf
+2026-06-09 22:54:41	-	cheeky_euclid	-	6c4c05198bd6c85c3ccc676c21968ee6	b7cd5160-596a-4b39-83a0-c30ee6e9963d	nextflow run hello-channels.nf
+2026-06-09 22:56:08	3.1s	drunk_cuvier	ERR	c430784e38931be36465b4745e5d3540	94afa227-6700-48a4-b849-5bf8d12d1d4a	nextflow run hello-channels.nf
+2026-06-09 23:03:17	3s	desperate_rutherford	OK	2f3a396afbd18fd4f63738ff0fe37ec4	fdac7212-1aeb-4c3e-9e45-6789c30bc016	nextflow run hello-channels.nf
+2026-06-09 23:11:18	3.1s	hungry_edison	OK	4d4053520df1c3cfd6ef7b2997067508	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf
+2026-06-09 23:21:51	3s	sad_rubens	ERR	6637eb4ba32ae55e036d175488024065	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume
+2026-06-09 23:23:33	3.1s	cheeky_mayer	ERR	51aaf65da11d5e712b658db25a6d87ac	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume
+2026-06-09 23:26:33	3.5s	desperate_picasso	OK	51d7e5765b76086b8a14f0e67e3c2fd8	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume
+2026-06-09 23:50:18	3.4s	awesome_celsius	OK	e101963cfbb48495cc475f9b1d244e4d	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume
+2026-06-09 23:53:42	2.9s	shrivelled_neumann	OK	df35e919e7f34f21ab694d247dbb9bfe	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume
+2026-06-10 00:13:05	3.4s	crazy_colden	OK	d8ad8d56664cf540c19252edb72752c7	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume --batch trio
+2026-06-10 00:14:35	-	reverent_kay	-	85174b19f3d74cfa004b329a68949b10	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume --batch trio
+2026-06-10 00:15:03	4.1s	furious_gautier	OK	87ceddddf093f6547a07bb349efbfeca	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume --batch trio
+2026-06-10 00:53:05	-	prickly_volhard	-	bd970be374decbdc04fcba8b9bca5811	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume --batch trio
+2026-06-10 00:59:16	-	magical_brattain	-	eedca76127bc31cd895c6145e3a48491	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume --batch trio
+2026-06-10 01:01:27	-	shrivelled_hypatia	-	f95e1958963140865292fc9956ec3d06	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume --batch trio
+2026-06-10 01:02:18	-	deadly_wright	-	7fb9495583344ffd622557f629e01f51	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume --batch trio
+2026-06-10 01:05:44	-	scruffy_boyd	-	4896698783dec036654537773f87bd3d	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume --batch trio
+2026-06-10 01:06:13	3.6s	distraught_legentil	ERR	bf2c0d689965faebcd318e58b7bfd2ed	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume --batch trio
+2026-06-10 01:15:52	3.7s	shrivelled_goldstine	OK	2b1bc1580878ed13b23895bbdfdf7d62	5147acff-50c2-45c5-98a9-d3bf9add83b6	nextflow run hello-workflow.nf -resume --batch trio
+2026-06-10 18:42:17	3.6s	astonishing_hamilton	OK	765eeefdd202b17b63f8f53a97968ab9	473430b3-e410-497c-a689-8b0263b3ee27	nextflow run hello-modules.nf
+2026-06-10 18:50:51	3.4s	sick_ekeblad	OK	115f7e21563f8b8eab7e858779dd7bd3	473430b3-e410-497c-a689-8b0263b3ee27	nextflow run hello-modules.nf -resume
+2026-06-10 18:53:11	2.8s	soggy_galileo	OK	4c7db497cf1f1d36dbc3e417f63d11ab	473430b3-e410-497c-a689-8b0263b3ee27	nextflow run hello-modules.nf -resume
+2026-06-10 18:55:04	-	kickass_baekeland	-	eac98e9f407b53d9257a33a77a598f7a	473430b3-e410-497c-a689-8b0263b3ee27	nextflow run hello-modules.nf -resume
+2026-06-10 18:55:56	3.6s	angry_williams	OK	af705d6d93482b171a4bb7f3e5032cd7	473430b3-e410-497c-a689-8b0263b3ee27	nextflow run hello-modules.nf -resume
+2026-06-10 18:58:45	3.9s	deadly_bhaskara	OK	fdbf988e91ea2f90fd3c180a1dd23252	f652a885-2f58-46f1-8811-c924489e514f	nextflow run hello-containers.nf
+2026-06-10 19:25:52	-	focused_banach	-	d6f2b048009655f667393d373423aa30	f652a885-2f58-46f1-8811-c924489e514f	nextflow run hello-containers.nf -resume
+2026-06-10 19:28:25	-	soggy_escher	-	d6f2b048009655f667393d373423aa30	f652a885-2f58-46f1-8811-c924489e514f	nextflow run hello-containers.nf -resume
+2026-06-10 19:30:11	-	kickass_waddington	-	95df07c20ba8ea8bacb8fcb777b8a3f6	f652a885-2f58-46f1-8811-c924489e514f	nextflow run hello-containers.nf -resume
+2026-06-10 19:31:33	4.5s	shrivelled_bohr	OK	9216195d7939ca0b8a8ab4dec1cba047	f652a885-2f58-46f1-8811-c924489e514f	nextflow run hello-containers.nf -resume
+2026-06-10 20:03:25	5s	hungry_mercator	OK	46a6763141dd6f9e2926c6c060b37d9a	76a245a1-408d-46bf-aaf0-f2efe1acd336	nextflow run hello-config.nf
+2026-06-10 20:07:16	4.3s	grave_baekeland	OK	32ecc4fba257b1926cd7e27a532b25b6	9362b333-093f-426c-b228-9ecf66d5e339	nextflow run hello-config.nf
+2026-06-12 00:19:53	11.8s	backstabbing_mahavira	OK	32ecc4fba257b1926cd7e27a532b25b6	69ec8404-32d7-47c1-8f29-488b4a4c564f	nextflow run hello-config.nf
+2026-06-12 00:32:00	4.7s	peaceful_brenner	OK	32ecc4fba257b1926cd7e27a532b25b6	f9a4ac25-447a-42f6-803d-84081dceb394	nextflow run hello-config.nf -params-file test-params.yaml
+2026-06-12 00:34:59	4.3s	pedantic_lalande	OK	32ecc4fba257b1926cd7e27a532b25b6	12a1d816-e833-4062-bfe2-d18199fc3b99	nextflow run hello-config.nf -output-dir custom-outdir-cli/
+2026-06-12 00:38:38	4s	happy_mirzakhani	OK	e48aa5967fc494b6d2d5a7514d0725ea	8a438de0-31c9-4bee-8c95-ab59392513d4	nextflow run hello-config.nf -output-dir custom-outdir-cli/
+2026-06-12 00:40:04	4s	festering_poitras	OK	32ecc4fba257b1926cd7e27a532b25b6	d90ffec8-1fb5-4c1e-9b1a-176d1543c016	nextflow run hello-config.nf -output-dir custom-outdir-cli/
+2026-06-12 00:40:27	4.5s	chaotic_sammet	OK	e48aa5967fc494b6d2d5a7514d0725ea	076e3b17-d2cc-4899-9c76-91d6058c6481	nextflow run hello-config.nf -output-dir custom-outdir-cli-2/
+2026-06-12 00:45:33	3.6s	angry_shirley	OK	f13c9e7d37045b774c58b8b3a6969e57	45d93d08-b865-4855-9009-d412598df545	nextflow run hello-config.nf --batch my_run
+2026-06-12 00:59:50	5.2s	gigantic_newton	OK	4efdf2a5d37e2311088e4c195a554d69	1f1f1ed8-0a5d-43be-927a-aca880c0e86c	nextflow run hello-config.nf -output-dir custom-outdir-config-2 --batch rep2
+2026-06-12 01:21:14	5.1s	nostalgic_poisson	OK	681fcf35cf489af5638df2eaaf42dd50	9045b693-a55a-46ad-8048-8014e683b388	nextflow run hello-config.nf -output-dir config-output-mode
+2026-06-12 01:27:13	36.7s	nauseous_wiles	OK	681fcf35cf489af5638df2eaaf42dd50	e7011809-4ce0-4b72-9feb-9f9d1fff2146	nextflow run hello-config.nf --batch conda
+2026-06-12 01:44:05	8.4s	magical_kilby	OK	681fcf35cf489af5638df2eaaf42dd50	4a4b112e-6c42-44b5-857b-e21b91288a87	nextflow run hello-config.nf -with-report report-config-1.html
+2026-06-12 01:52:08	8.1s	compassionate_poisson	OK	681fcf35cf489af5638df2eaaf42dd50	b40da713-3937-4cea-82e2-96b98dacf92b	nextflow run hello-config.nf -with-report report-config-1.html
+2026-06-12 01:53:54	7.3s	angry_bassi	OK	681fcf35cf489af5638df2eaaf42dd50	f10ae217-e500-410e-a399-5907f568d2c7	nextflow run hello-config.nf -with-report report-config-1.html --batch with_report
+2026-06-12 02:21:34	9.1s	compassionate_becquerel	OK	681fcf35cf489af5638df2eaaf42dd50	12e9f2c7-93dc-43f9-840b-589c3b072036	nextflow run hello-config.nf -with-report report-config-2.html
+2026-06-12 02:37:20	6.7s	clever_hoover	OK	681fcf35cf489af5638df2eaaf42dd50	63d6196b-0038-4dda-acd9-6adf32834f7d	nextflow run hello-config.nf -profile my_laptop
+2026-06-12 02:45:01	5.6s	ecstatic_waddington	OK	681fcf35cf489af5638df2eaaf42dd50	85c9a53b-0914-4e48-81c0-fa527702ddff	nextflow run hello-config.nf -profile my_laptop,test

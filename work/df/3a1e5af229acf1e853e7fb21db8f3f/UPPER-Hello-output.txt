@@ -1,0 +1,1 @@
+/workspaces/training/hello-nextflow/work/4e/96cbad5332973877a54244e2c23c6f/UPPER-Hello-output.txt

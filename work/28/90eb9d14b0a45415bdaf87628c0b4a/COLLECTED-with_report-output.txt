@@ -1,0 +1,1 @@
+/workspaces/training/hello-nextflow/work/59/48b60c3a8c881051197f6b1c8af72f/COLLECTED-with_report-output.txt

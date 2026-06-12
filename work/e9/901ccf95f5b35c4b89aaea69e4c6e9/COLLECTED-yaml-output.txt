@@ -1,0 +1,1 @@
+/workspaces/training/hello-nextflow/work/a4/c574f37673929739da3a55be8e09a3/COLLECTED-yaml-output.txt

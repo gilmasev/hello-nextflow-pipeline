@@ -1,0 +1,11 @@
+by Gilma Sevilla
+
+first update the process
+
+then update the include module if the process is a module
+
+then update the workflow
+
+then update the params
+
+then update the publish section

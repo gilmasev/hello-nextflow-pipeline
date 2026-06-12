@@ -1,0 +1,2 @@
+2026-06-10 20:09:28	5.9s	dreamy_carlsson	OK	32ecc4fba257b1926cd7e27a532b25b6	e0661bfe-387b-4d16-a619-e9526af0d28d	nextflow run ../hello-config.nf
+2026-06-12 00:22:44	4.2s	dreamy_mandelbrot	OK	32ecc4fba257b1926cd7e27a532b25b6	f52b6cc8-6c58-44e1-88f4-939397ea1118	nextflow run ../hello-config.nf

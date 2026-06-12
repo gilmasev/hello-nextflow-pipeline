@@ -1,0 +1,1 @@
+/workspaces/training/hello-nextflow/work/21/eaea1904301cb61e3b61beea520482/UPPER-Bonjour-output.txt

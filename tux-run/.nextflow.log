@@ -1,0 +1,108 @@
+Jun-12 00:22:42.570 [main] DEBUG nextflow.cli.Launcher - $> nextflow run ../hello-config.nf
+Jun-12 00:22:42.770 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.10.4
+Jun-12 00:22:42.814 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/workspaces/.nextflow/plugins; core-plugins: nf-amazon@3.4.4,nf-azure@1.20.2,nf-cloudcache@0.5.0,nf-codecommit@0.5.0,nf-console@1.3.0,nf-google@1.23.5,nf-k8s@1.2.2,nf-tower@1.17.5,nf-wave@1.16.1
+Jun-12 00:22:42.868 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jun-12 00:22:42.869 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jun-12 00:22:42.873 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Jun-12 00:22:42.897 [main] DEBUG nextflow.util.RetryConfig - Missing nextflow session - using default retry config
+Jun-12 00:22:43.149 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jun-12 00:22:43.201 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /workspaces/training/hello-nextflow/nextflow.config
+Jun-12 00:22:43.203 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /workspaces/training/hello-nextflow/tux-run/nextflow.config
+Jun-12 00:22:43.206 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /workspaces/training/hello-nextflow/nextflow.config
+Jun-12 00:22:43.207 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /workspaces/training/hello-nextflow/tux-run/nextflow.config
+Jun-12 00:22:43.213 [main] DEBUG nextflow.config.ConfigParserFactory - Using config parser v2
+Jun-12 00:22:43.247 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jun-12 00:22:43.767 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jun-12 00:22:43.834 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jun-12 00:22:43.834 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jun-12 00:22:43.869 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /workspaces/.nextflow/secrets/store.json
+Jun-12 00:22:43.879 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@74170687] - activable => nextflow.secret.LocalSecretsProvider@74170687
+Jun-12 00:22:43.904 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Jun-12 00:22:43.927 [main] DEBUG nextflow.cli.CmdRun - Launching `../hello-config.nf` [dreamy_mandelbrot] DSL2 - revision: 32ecc4fba2
+Jun-12 00:22:44.069 [main] DEBUG nextflow.Session - Session UUID: f52b6cc8-6c58-44e1-88f4-939397ea1118
+Jun-12 00:22:44.071 [main] DEBUG nextflow.Session - Run name: dreamy_mandelbrot
+Jun-12 00:22:44.072 [main] DEBUG nextflow.Session - Executor pool size: 2
+Jun-12 00:22:44.088 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jun-12 00:22:44.100 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=10; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jun-12 00:22:44.135 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 25.10.4 build 11173
+  Created: 10-02-2026 15:17 UTC (15:17 GMT)
+  System: Linux 6.8.0-1052-azure
+  Runtime: Groovy 4.0.28 on OpenJDK 64-Bit Server VM 21.0.6+7-LTS
+  Encoding: UTF-8 (UTF-8)
+  Process: 2728@codespaces-3e51bd [127.0.0.1]
+  CPUs: 2 - Mem: 7.8 GB (175.9 MB) - Swap: 0 (0)
+Jun-12 00:22:44.171 [main] DEBUG nextflow.Session - Work-dir: /workspaces/training/hello-nextflow/tux-run/work [ext2/ext3]
+Jun-12 00:22:44.173 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /workspaces/training/hello-nextflow/bin
+Jun-12 00:22:44.191 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jun-12 00:22:44.224 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Jun-12 00:22:44.227 [main] DEBUG nextflow.Session - Observer factory (v2): DefaultObserverFactory
+Jun-12 00:22:44.277 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jun-12 00:22:44.290 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 3; maxThreads: 1000
+Jun-12 00:22:44.362 [main] DEBUG nextflow.Session - Session start
+Jun-12 00:22:44.368 [main] DEBUG nextflow.script.ScriptLoaderFactory - Using script parser v2
+Jun-12 00:22:45.191 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jun-12 00:22:45.596 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-12 00:22:45.597 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-12 00:22:45.610 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jun-12 00:22:45.620 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=2; memory=7.8 GB; capacity=2; pollInterval=100ms; dumpInterval=5m
+Jun-12 00:22:45.623 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jun-12 00:22:45.682 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'sayHello': maxForks=0; fair=false; array=0
+Jun-12 00:22:45.750 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-12 00:22:45.752 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-12 00:22:45.754 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'convertToUpper': maxForks=0; fair=false; array=0
+Jun-12 00:22:45.855 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-12 00:22:45.855 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-12 00:22:45.862 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'collectGreetings': maxForks=0; fair=false; array=0
+Jun-12 00:22:45.893 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jun-12 00:22:45.895 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jun-12 00:22:45.896 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'cowpy': maxForks=0; fair=false; array=0
+Jun-12 00:22:45.938 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: cowpy, sayHello, convertToUpper, collectGreetings
+Jun-12 00:22:45.942 [main] DEBUG nextflow.Session - Igniting dataflow network (5)
+Jun-12 00:22:45.952 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > sayHello
+Jun-12 00:22:45.953 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > convertToUpper
+Jun-12 00:22:45.953 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > collectGreetings
+Jun-12 00:22:45.953 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > cowpy
+Jun-12 00:22:45.957 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  _nf_script_75da14689f49de02: /workspaces/training/hello-nextflow/modules/sayHello.nf
+  _nf_script_1bb20826710899b5: /workspaces/training/hello-nextflow/modules/collectGreetings.nf
+  _nf_script_bbb7ebec6ab61e79: /workspaces/training/hello-nextflow/modules/convertToUpper.nf
+  _nf_script_2e0178a4ab00b98a: /workspaces/training/hello-nextflow/modules/cowpy.nf
+  Main: /workspaces/training/hello-nextflow/hello-config.nf
+Jun-12 00:22:45.958 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jun-12 00:22:45.958 [main] DEBUG nextflow.Session - Session await
+Jun-12 00:22:46.394 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-12 00:22:46.402 [Task submitter] INFO  nextflow.Session - [fb/189ae9] Submitted process > sayHello (1)
+Jun-12 00:22:46.435 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-12 00:22:46.438 [Task submitter] INFO  nextflow.Session - [fe/00d7aa] Submitted process > sayHello (2)
+Jun-12 00:22:46.499 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: sayHello (1); status: COMPLETED; exit: 0; error: -; workDir: /workspaces/training/hello-nextflow/tux-run/work/fb/189ae9c955a2642873ac0cf8647610]
+Jun-12 00:22:46.502 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=10; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jun-12 00:22:46.525 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-12 00:22:46.527 [Task submitter] INFO  nextflow.Session - [f3/98b81a] Submitted process > sayHello (3)
+Jun-12 00:22:46.529 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: sayHello (2); status: COMPLETED; exit: 0; error: -; workDir: /workspaces/training/hello-nextflow/tux-run/work/fe/00d7aa8c1ef7292de7398cf1324750]
+Jun-12 00:22:46.573 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: sayHello (3); status: COMPLETED; exit: 0; error: -; workDir: /workspaces/training/hello-nextflow/tux-run/work/f3/98b81a1babb857b6afecc816d22a5d]
+Jun-12 00:22:46.664 [Actor Thread 3] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=10; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jun-12 00:22:46.678 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-12 00:22:46.681 [Task submitter] INFO  nextflow.Session - [88/8668d6] Submitted process > convertToUpper (1)
+Jun-12 00:22:46.715 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-12 00:22:46.720 [Task submitter] INFO  nextflow.Session - [80/14fa16] Submitted process > convertToUpper (2)
+Jun-12 00:22:46.828 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: convertToUpper (1); status: COMPLETED; exit: 0; error: -; workDir: /workspaces/training/hello-nextflow/tux-run/work/88/8668d6d1b7d392870387aeb83017fb]
+Jun-12 00:22:46.836 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: convertToUpper (2); status: COMPLETED; exit: 0; error: -; workDir: /workspaces/training/hello-nextflow/tux-run/work/80/14fa16a59eed3b965240a8c830deeb]
+Jun-12 00:22:46.860 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-12 00:22:46.862 [Task submitter] INFO  nextflow.Session - [82/a69318] Submitted process > convertToUpper (3)
+Jun-12 00:22:46.958 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: convertToUpper (3); status: COMPLETED; exit: 0; error: -; workDir: /workspaces/training/hello-nextflow/tux-run/work/82/a693185b8752309dde8c388f4a1bb7]
+Jun-12 00:22:47.015 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-12 00:22:47.015 [Task submitter] INFO  nextflow.Session - [91/ebbdab] Submitted process > collectGreetings
+Jun-12 00:22:47.057 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: collectGreetings; status: COMPLETED; exit: 0; error: -; workDir: /workspaces/training/hello-nextflow/tux-run/work/91/ebbdabfae1834dcbc68ee58c48f6ef]
+Jun-12 00:22:47.110 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jun-12 00:22:47.111 [Task submitter] INFO  nextflow.Session - [e1/602d22] Submitted process > cowpy
+Jun-12 00:22:47.869 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: cowpy; status: COMPLETED; exit: 0; error: -; workDir: /workspaces/training/hello-nextflow/tux-run/work/e1/602d224bb331107c420a32835bf9b2]
+Jun-12 00:22:47.874 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jun-12 00:22:47.970 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Jun-12 00:22:47.974 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jun-12 00:22:47.983 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Jun-12 00:22:47.988 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Jun-12 00:22:47.998 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=8; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=990ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=3; peakCpus=3; peakMemory=0; ]
+Jun-12 00:22:48.205 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jun-12 00:22:48.222 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Jun-12 00:22:48.223 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

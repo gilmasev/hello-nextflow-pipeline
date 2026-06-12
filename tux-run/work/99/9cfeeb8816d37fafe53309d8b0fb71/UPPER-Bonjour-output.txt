@@ -1,0 +1,1 @@
+/workspaces/training/hello-nextflow/tux-run/work/fa/708554c85556066a11097e578118ae/UPPER-Bonjour-output.txt

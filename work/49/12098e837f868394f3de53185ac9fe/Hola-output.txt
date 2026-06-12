@@ -1,0 +1,1 @@
+/workspaces/training/hello-nextflow/work/17/c55954730927e3ad10aeb25d59563b/Hola-output.txt

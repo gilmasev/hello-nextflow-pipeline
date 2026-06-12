@@ -1,0 +1,1 @@
+/workspaces/training/hello-nextflow/work/9b/171c28fafa01119f6b9648ae49943e/Hello-output.txt

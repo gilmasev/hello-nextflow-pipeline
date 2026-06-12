@@ -1,0 +1,1 @@
+/workspaces/training/hello-nextflow/tux-run/work/99/9cfeeb8816d37fafe53309d8b0fb71/COLLECTED-experiment-output.txt

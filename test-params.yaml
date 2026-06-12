@@ -1,0 +1,7 @@
+# this parameter file contains key value pair for each input that we want to specify
+# using colons instead of equal signs; .config is written in Groovy and .yaml is written in YAML; can also write param file in JSON
+# use this parameter file when you want to run the pipeline on a specific set of values without having to update paths + setup (use instead of nextflow.config file)
+
+input: "data/greetings.csv"
+batch: "yaml"
+character: "stegosaurus"
